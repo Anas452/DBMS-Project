@@ -1,0 +1,25 @@
+.upload-image{
+    /* background-color: white; */
+    width: 100%;
+    text-align: center;
+    /* line-height: 20; */
+    margin: 90px auto;
+}
+.upload-image > *{
+    /* padding: 10px; */
+    margin: 10px;
+}
+.upload-image > input[type="file"],input[type="file"]::placeholder{
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.upload-image > input[type="button"]{
+    padding: 6px 10px;
+    font-size: 1.2em;
+}
+.upload-image > h1{
+    font-size: 1.9em;
+    color:black;
+    background-color: blue;
+}
