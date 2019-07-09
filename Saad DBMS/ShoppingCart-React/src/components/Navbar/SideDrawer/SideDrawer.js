@@ -12,7 +12,7 @@ const sideDrawer = props => {
       <ul>
         <li><NavLink to="../Home" onClick={props.drawerToggleClickHandler}>Home</NavLink></li>
         <li><NavLink to="../Item" onClick={props.drawerToggleClickHandler}>Items</NavLink></li>
-        <li><NavLink to="../" onClick={props.drawerToggleClickHandler}>About Us</NavLink></li>
+        <li><NavLink to="../About" onClick={props.drawerToggleClickHandler}>About Us</NavLink></li>
         <li><NavLink to="../Login" onClick={props.drawerToggleClickHandler}>Login / Signup ?</NavLink></li>
     </ul>
     </nav>

@@ -4,7 +4,7 @@ import {BrowserRouter , Route} from 'react-router-dom'
 import Home from './components/Home'
 import NavBar from './components/Navbar/Navbar'
 import Items from './components/Item'
-
+import About from './components/About'
 import Login from './components/Login'
 import Register from './components/Register'
 import Upload from "./components/UploadImage"
@@ -22,13 +22,12 @@ class App extends Component {
           <NavBar/>
           <Route path='/Home' component = {Home} /> 
 
-
-
           <Route path='/Item' component = {Items} />
           {/* <Login/> */}
           <Route path='/Login' component = {Login} />
           <Route path='/Register' component = {Register} />
           <Route path='/Upload' component = {Upload} />
+          <Route path='/About' component = {About} />
 
         </div>       
       </BrowserRouter>

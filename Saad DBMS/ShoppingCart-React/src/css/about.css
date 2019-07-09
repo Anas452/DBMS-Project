@@ -1,0 +1,68 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  padding: 60px 60px;
+}
+
+.wrapper h1{
+  font-family: 'Segoe UI';
+  font-size: 48px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #2d6672;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 200px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #463131;  
+  position: relative;  
+}
+
+.team .team_member h3{
+  color: #44a0b3;
+  font-size: 26px;
+  margin-top: 140px;
+}
+
+.team .team_member p.role{
+  color: #257383;
+  margin-top: 12px;
+  margin-left: -20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -170px;
+  left: 50%;
+  width: 300px;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  object-fit: cover;
+}

@@ -15,7 +15,7 @@ const toolbar = props => (
         <ul>
           <li><NavLink to="/Home">Home</NavLink></li>
           <li><NavLink to="/Item">Items</NavLink></li>
-          <li><NavLink to="/">About Us</NavLink></li>
+          <li><NavLink to="/About">About Us</NavLink></li>
           <li><NavLink to="/Login">Login / Signup ?</NavLink></li>
           <li><NavLink to="/Upload">Upload Item</NavLink></li>
 
